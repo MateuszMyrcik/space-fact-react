@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: 200px;
+  justify-items: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-self: start;
+}
+
+nav ul li {
+  padding: 6px;
+}

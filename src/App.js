@@ -10,6 +10,7 @@ import {
 
 import HomePage from './pages/home';
 import ExoplanetsPage from './pages/exoplanets';
+import SearchWidget from './widgets/search';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Link to="/exoplanets">Exoplanets</Link>
             </li>
           </ul>
+          <SearchWidget />
         </nav>
         <Switch>
           <Route path="/exoplanets">
