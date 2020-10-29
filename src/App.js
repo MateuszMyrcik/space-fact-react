@@ -11,8 +11,12 @@ import {
 import HomePage from './pages/home';
 import ExoplanetsPage from './pages/exoplanets';
 import SearchWidget from './widgets/search';
+import NavItem from './resources/features/atoms/nav-item';
 
 function App() {
+  const additionalClasses = ['additional-item-2', 'additional-item-3'];
+  const dropdownOptions = [{ url: 'google2.com', itemName: 'Google2'},{url: 'google3.com', itemName: 'Google3'}]
+
   return (
     <Router>
       <div>
@@ -24,6 +28,9 @@ function App() {
             <li>
               <Link to="/exoplanets">Exoplanets</Link>
             </li>
+            {/* <NavItem label="Google" dropdownOptions={dropdownOptions} classes={additionalClasses} url="google.com"></NavItem>
+            <NavItem label="FB" url="yt.com"></NavItem>
+            <NavItem label="Yt" url="yt.com"></NavItem> */}
           </ul>
           <SearchWidget />
         </nav>
