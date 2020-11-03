@@ -8,9 +8,9 @@ import {
   Link
 } from 'react-router-dom';
 
-import HomePage from './pages/home';
-import ExoplanetsPage from './pages/exoplanets';
-import SearchWidget from './widgets/search';
+import HomePage from './resources/pages/home';
+import ExoplanetsPage from './resources/pages/exoplanets';
+import SearchMolecule from './resources/features/molecules/search';
 import NavItem from './resources/features/atoms/nav-item';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
             <NavItem label="FB" url="yt.com"></NavItem>
             <NavItem label="Yt" url="yt.com"></NavItem> */}
           </ul>
-          <SearchWidget />
+          <SearchMolecule />
         </nav>
         <Switch>
           <Route path="/exoplanets">
