@@ -5,4 +5,9 @@ function joinClasses(primaryClass = '', restClasses) {
     return primaryClass.concat(' ', restClasses.join(' ')).trim();
 }
 
-export { joinClasses }
+function noop() {}
+
+export {
+  joinClasses,
+  noop,
+}

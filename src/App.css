@@ -40,12 +40,11 @@
 nav {
   display: grid;
   grid-template-columns: auto 200px;
-  grid-template-rows: 200px;
   justify-items: center;
   align-items: center;
 }
 
-nav ul {
+/* nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,4 +54,4 @@ nav ul {
 
 nav ul li {
   padding: 6px;
-}
+} */

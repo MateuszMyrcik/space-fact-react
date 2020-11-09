@@ -1,14 +1,17 @@
-
-import { faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faSquare, faSearch, faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const icon = {
-	FA_ANGLE_UP: 'faAngleUp',
-	FA_ANGLE_DOWN: 'faAngleDown'
+  DEFAULT: 'faSquare',
+  SEARCH: 'faSearch',
+  FA_ANGLE_UP: 'faAngleUp',
+  FA_ANGLE_DOWN: 'faAngleDown'
 }
 
 const iconsModules = {
-	faAngleUp,
-	faAngleDown
+  faSquare,
+  faSearch,
+  faAngleUp,
+  faAngleDown
 }
 
-export  { iconsModules, icon }
+export { iconsModules, icon }
