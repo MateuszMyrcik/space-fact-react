@@ -10,6 +10,7 @@ import {
 
 import HomePage from './resources/pages/home';
 import ExoplanetsPage from './resources/pages/exoplanets';
+import TestPage from './resources/pages/test';
 import SearchMolecule from './resources/features/molecules/search';
 import NavItem from './resources/features/atoms/nav-item';
 
@@ -28,6 +29,9 @@ function App() {
             <li>
               <Link to="/exoplanets">Exoplanets</Link>
             </li>
+            <li>
+              <Link to="/test">Test</Link>
+            </li>
             {/* <NavItem label="Google" dropdownOptions={dropdownOptions} classes={additionalClasses} url="google.com"></NavItem>
             <NavItem label="FB" url="yt.com"></NavItem>
             <NavItem label="Yt" url="yt.com"></NavItem> */}
@@ -37,6 +41,9 @@ function App() {
         <Switch>
           <Route path="/exoplanets">
             <ExoplanetsPage />
+          </Route>
+          <Route path="/test">
+            <TestPage />
           </Route>
           <Route path="/">
             <HomePage />
